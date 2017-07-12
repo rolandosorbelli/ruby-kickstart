@@ -9,5 +9,9 @@
 # arithmeitc1(-6)     # => -50
 
 def arithmetic1(n)
-  # the code for this method goes in here
+	puts n * 5 - 20
 end
+
+arithmetic1(10)
+arithmetic1(10.5)
+arithmetic1(-6)
