@@ -9,4 +9,14 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
+
+	if a < b
+		puts a/2.to_f
+	else
+		puts b/2.to_f
+	end
 end
+
+arithmetic2(1, 2)
+arithmetic2(19, 10)
+arithmetic2(-6, -7)
